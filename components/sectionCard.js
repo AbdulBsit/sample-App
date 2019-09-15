@@ -55,6 +55,8 @@ const styles = StyleSheet.create({
         padding: 9
     },
     cardFooter: {
+        borderBottomEndRadius:10,
+        borderBottomStartRadius:10,
         justifyContent: "center",
         flexDirection: "row",
         backgroundColor: "lightgrey"

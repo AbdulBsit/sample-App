@@ -56,6 +56,8 @@ class QuestionCard extends React.Component {
             <View style={styles.card}>
                 <View
                     style={{
+                        borderTopEndRadius:10,
+                        borderTopStartRadius:10,
                         alignItems: "center",
                         padding: 5,
                         backgroundColor: `${
@@ -252,6 +254,8 @@ const styles = StyleSheet.create({
     },
 
     footer: {
+        borderBottomEndRadius:10,
+        borderBottomStartRadius:10,
         justifyContent: "center",
         backgroundColor: "lightgrey",
         padding: 5,
